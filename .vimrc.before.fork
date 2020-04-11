@@ -1,1 +1,4 @@
-let g:spf13_bundle_groups=['general', 'writing', 'youcompleteme', 'programming', 'python',]
+if !exists("g:spf13_bundle_groups")
+    let g:spf13_bundle_groups=['general', 'writing', 'youcompleteme', 'programming', 'python',]
+endif
+let g:airline_powerline_fonts = 1
